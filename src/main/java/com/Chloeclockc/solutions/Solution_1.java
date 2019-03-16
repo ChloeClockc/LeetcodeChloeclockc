@@ -13,10 +13,12 @@ import java.util.Map;
  * Because nums[0] + nums[1] = 2 + 7 = 9,
  * return [0, 1].
  */
+//时间复杂度O（n） O（n）
 class Solution_1 {
     public int[] twoSum(int[] nums, int target) {
         Map <Integer, Integer> map =new HashMap();
         for(int i =0;i < nums.length; i++){
+//            构造一个HashMap，把数组的值作为key，数组下标作为v，key与target减去另一个数组值相比，可以得到第二个数组下标；
             int x = nums[i];
 
             if(map.containsKey(target-x)) {
@@ -32,3 +34,19 @@ class Solution_1 {
 
     }
 }
+//  双重循环解法，时间复杂度O（n²） 空间O（1）
+// class Solution {
+//     public int[] twoSum(int[] nums, int target) {
+//         for(int i=0;i<nums.length;i++)
+//             for(int j=i+1;j<nums.length;j++){
+//                 int result=nums[i]+nums[j];
+//                 if (result==target){
+//                 int[]out ={i,j};
+//                return out;
+//                 }
+
+//             }
+//          return null;
+//     }
+
+// }
