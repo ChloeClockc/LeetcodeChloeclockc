@@ -168,7 +168,7 @@ class ThirdMaximumNumber_414 {
             firstM = Math.max(firstM, nums[i]);  //找出最大值max
 
         }
-        for (int n : nums) { //此处要定义n
+        for (int n : nums) { //此处要定义n 类型
             if (n == firstM) {
                 continue;  //如果等于最大值，继续找
             }
