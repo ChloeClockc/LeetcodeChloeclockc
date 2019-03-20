@@ -359,7 +359,7 @@ _If you like this project, please leave me a star._ &#9733;
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_417.java) | O(m*n*Max(m,n)) |O(m*n) | |Medium| DFS
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_416.java)| O(m*n)|O(m*n) | |Medium | DP
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_415.java)| O(n)|O(1) | |Easy|
-|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Solution](../master/src/main/java/com/ChloeClockc/solutions/ThirdMaximumNumber_414.java)| O(n)|O(1) | |Easy|
+|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Solution414](..master/src/main/java/com/Chloeclockc/solutions/ThirdMaximumNumber_414.java)| O(n)|O(1) | |Easy|
 |413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_413.java) | O(n) |O(1) | |Medium| DP
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_412.java)| O(n)|O(1) | |Easy|
 |411|[Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_411.java)| O(?)|O(?) | |Hard| NP-Hard, Backtracking, Trie, Recursion
@@ -534,7 +534,7 @@ _If you like this project, please leave me a star._ &#9733;
 |241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_241.java) | O(O(n * 4^n / n^(3/2))) | O(n * 4^n / n^(3/2)) | |Medium | Divide and Conquer
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_240.java)| O(m+n)|O(1) | |Medium| Binary Search
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_239.java)| O(nlogn)|O(k) | |Hard| Heap
-|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Solution238](../master/src/main/java/com/Chloeclokc/solutions/ProductOfArrayExceptSelf_238.java)| O(n)|O(1) | |Medium| Array
+|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Solution238](../master/src/main/java/com/Chloeclockc/solutions/ProductOfArrayExceptSelf_238.java)| O(n)|O(1) | |Medium| Array
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_237.java)| O(1)|O(1) | |Easy| LinkedList
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_236.java)| O(n)|O(h) | |Medium| DFS
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_235.java)| O(h)|O(1) | |Easy| DFS
@@ -755,7 +755,7 @@ _If you like this project, please leave me a star._ &#9733;
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_4.java) | ? | ? | |Hard | Divide and Conquer
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_3.java) | O(n) | O(k) | |Medium | HashMap, Sliding Window
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_2.java) | O(max(m,n)) | O(1) | |Medium | LinkedList
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution1](../master/src/main/java/com/Chloeclockc/solutions/Solution_1.java))| O(n)| O(n) |[:tv:](https://www.youtube.com/watch?v=kPXOr6pW8KM&t=)|Easy| HashMap 
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution1](../master/src/main/java/com/Chloeclockc/solutions/TwoSum_1.java))| O(n)| O(n) |[:tv:](https://www.youtube.com/watch?v=kPXOr6pW8KM&t=)|Easy| HashMap 
 
 ## Database
 
