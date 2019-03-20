@@ -156,12 +156,12 @@ class ThirdMaximumNumber_414 {
             遍历第二次 排除第一大找出第二大（注意第一大和第二大不一定唯一 并且第二大不一定存在 第三大也不一定）
             然后再排除第二大 遍历找第三大
             判断第三大变量是否还是初始值 如果是输出  如果不是 输出第一大*/
-        // long firstM = Long.MIN_VALUE;         //用long最小值初始化
-        // long secondM = Long.MIN_VALUE;
-        // long thirdM =Long.MIN_VALUE;
-        int firstM = Integer.MIN_VALUE;
-        int secondM = Integer.MIN_VALUE;
-        int thirdM = Integer.MIN_VALUE; //用Integer最小值初始化
+         long firstM = Long.MIN_VALUE;         //用long最小值初始化 必须用long最小值 防止原来数组有Integer 最小值
+         long secondM = Long.MIN_VALUE;
+         long thirdM =Long.MIN_VALUE;
+//        int firstM = Integer.MIN_VALUE;
+//        int secondM = Integer.MIN_VALUE;
+//        int thirdM = Integer.MIN_VALUE; //用Integer最小值初始化
 
         int l = nums.length;
 /*        List<> n1 = Arrays.Ints.asList(nums);//使用guava类库的工具方法
@@ -193,7 +193,7 @@ class ThirdMaximumNumber_414 {
 
         }
 //        return (int) (thirdM == Integer.MIN_VALUE ? firstM : thirdM); //第三大变量为初始值 输出第一大 否则 输出第三大
-        return  (thirdM == Integer.MIN_VALUE ? firstM : thirdM);
+        return (int)(thirdM == Long.MIN_VALUE ? firstM : thirdM);
     }
 
         public static void main (String[]args){
@@ -201,7 +201,7 @@ class ThirdMaximumNumber_414 {
 //            int[] nums1 = new int[]{2, 7, 11, 5};
 //            int[] nums1 = new int[]{2, 2, 1, 3};
 //            int[] nums1 = new int[]{2, Integer.MIN_VALUE};
-            int[] nums1 = new int[]{ 1,2};
+            int[] nums1 = new int[]{ 1,2,Integer.MIN_VALUE};
             int re = solution1.thirdMax(nums1);
             // String fire= Arrays.toString(re);
             System.out.println(re);
