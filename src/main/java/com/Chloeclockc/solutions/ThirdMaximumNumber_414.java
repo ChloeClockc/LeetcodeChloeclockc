@@ -164,10 +164,20 @@ class ThirdMaximumNumber_414 {
         int thirdM = Integer.MIN_VALUE; //用Integer最小值初始化
 
         int l = nums.length;
-        for (int i = 0; i < l - 1; i++) {
+/*        List<> n1 = Arrays.Ints.asList(nums);//使用guava类库的工具方法
+        n1.forEach(n) -> System.out,println()*/
+
+
+
+      for (int i = 0; i <= l - 1; i++) //边界是length -1
+        {
             firstM = Math.max(firstM, nums[i]);  //找出最大值max
 
         }
+            /*for (int n : nums) {
+            firstM = Math.max(firstM, n);  //找出最大值max
+
+        }*/
         for (int n : nums) { //此处要定义n 类型
             if (n == firstM) {
                 continue;  //如果等于最大值，继续找
@@ -182,13 +192,16 @@ class ThirdMaximumNumber_414 {
             thirdM = Math.max(thirdM, n);//除去最大和第二大值 第三大值
 
         }
-        return (int) (thirdM == Integer.MIN_VALUE ? firstM : thirdM); //第三大变量为初始值 输出第一大 否则 输出第三大
+//        return (int) (thirdM == Integer.MIN_VALUE ? firstM : thirdM); //第三大变量为初始值 输出第一大 否则 输出第三大
+        return  (thirdM == Integer.MIN_VALUE ? firstM : thirdM);
     }
 
         public static void main (String[]args){
             ThirdMaximumNumber_414 solution1 = new ThirdMaximumNumber_414();
 //            int[] nums1 = new int[]{2, 7, 11, 5};
-            int[] nums1 = new int[]{2, 2, 1, 3};
+//            int[] nums1 = new int[]{2, 2, 1, 3};
+//            int[] nums1 = new int[]{2, Integer.MIN_VALUE};
+            int[] nums1 = new int[]{ 1,2};
             int re = solution1.thirdMax(nums1);
             // String fire= Arrays.toString(re);
             System.out.println(re);
