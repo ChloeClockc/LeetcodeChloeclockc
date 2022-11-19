@@ -8,7 +8,7 @@ class Solution:
                 result = nums[i] + nums[j]
                 if result == target:
                     print(i, j)
-                    return [i, j];
+                    return [i, j]
 
 
 s=Solution()
